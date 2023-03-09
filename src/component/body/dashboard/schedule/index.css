@@ -1,0 +1,29 @@
+.schedule {
+  @apply bg-white w-[calc(30%)] ml-[15px] h-full;
+
+  /*@apply bg-white w-[calc(30%-15px)] h-full;*/
+  @apply rounded-2xl;
+  @apply flex flex-col overflow-y-scroll;
+  box-shadow: 0px 7px 7px -3px rgba(0, 0, 0, 0.05);
+}
+
+.schedule > .calendar {
+  @apply flex m-[15px] mb-0 pt-[30px] pb-[30px];
+  @apply rounded-2xl;
+  background: #faf4f6;
+  @apply justify-center content-center items-center;
+}
+
+.schedule > .calendar > .bKeNgyK4jHMqv9eOTyK6 {
+  border: none !important;
+}
+
+.schedule-item {
+  @apply flex flex-col m-[15px] pb-[15px];
+  @apply rounded-2xl;
+  background: #faf4f6;
+}
+
+.schedule-item > .title {
+  @apply m-[15px] mb-[10px] font-semibold text-lg;
+}

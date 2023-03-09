@@ -1,0 +1,14 @@
+.countdown {
+  @apply flex flex-col;
+  @apply rounded-2xl;
+  background: #faf4f6;
+}
+
+.countdown > .title {
+  @apply m-[15px] mb-[10px] font-semibold text-lg;
+}
+
+.countdown > .time {
+  @apply ml-[15px] mb-[15px] font-medium text-xl;
+  color: #be8b81;
+}

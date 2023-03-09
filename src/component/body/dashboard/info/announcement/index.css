@@ -1,0 +1,14 @@
+.announcement {
+  @apply flex flex-col mt-[15px] pb-[15px];
+  @apply rounded-2xl;
+  background: #faf4f6;
+}
+
+.announcement .title {
+  @apply m-[15px] mb-[10px] font-semibold text-lg;
+}
+
+.announcement .content {
+  @apply ml-[15px] font-medium;
+  color: #be8b81;
+}

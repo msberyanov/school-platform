@@ -1,0 +1,4 @@
+.header {
+  @apply h-[70px] w-full absolute;
+  @apply flex items-center justify-around;
+}

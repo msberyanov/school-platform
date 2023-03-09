@@ -1,0 +1,9 @@
+.next-lesson {
+  @apply flex flex-col mb-[15px] pb-[15px];
+  @apply rounded-2xl;
+  background: #faf4f6;
+}
+
+.next-lesson > .title {
+  @apply m-[15px] mb-[10px] font-semibold text-lg;
+}

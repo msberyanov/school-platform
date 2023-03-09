@@ -1,1 +1,0 @@
-export const PROFILE_NAME = "Елизавета Бакулина";

@@ -11,4 +11,4 @@ jobs:
         with:
           render-token: ${{ secrets.RENDER_TOKEN }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          service-id: school-platform
+          service-id: srv-cg7lndg2qv28u2uapp8g

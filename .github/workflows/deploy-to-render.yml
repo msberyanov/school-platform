@@ -1,4 +1,4 @@
-name: Deploy To Render
+name: Deploy
 on: [push]
 jobs:
   Explore-GitHub-Actions:
@@ -6,3 +6,8 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
+      - name: Deploy to Render
+        uses: johnbeynon/render-deploy-action
+        with:
+          service-id: ${{ secrets.RENDER_SERVICE }}
+          api-key: ${{ secrets.RENDER_KEY }}

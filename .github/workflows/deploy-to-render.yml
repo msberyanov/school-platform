@@ -7,8 +7,7 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v3
       - name: Deploy to Render
-        uses: Bounceapp/render-action@0.6.0
+        uses: timc1/render-deploy-action@v1.0
         with:
-          render-token: ${{ secrets.RENDER_TOKEN }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          service-id: srv-cg7lndg2qv28u2uapp8g
+          render-api-key: ${{ secrets.RENDER_API_KEY }}
+          render-service-id: ${{ secrets.RENDER_SERVICE_ID }}

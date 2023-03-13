@@ -11,24 +11,24 @@ const testItems: ITestItemProps[] = [
     date: "Фев, 09"
   },
   {
-    title: "Английский язык",
-    description: "Past Simple",
+    title: "Математика",
+    description: "Биномиальные уравнения",
     date: "Фев, 09"
   },
   {
-    title: "Английский язык",
-    description: "Past Simple",
-    date: "Фев, 09"
+    title: "Литература",
+    description: "Серебрянный век",
+    date: "Фев, 10"
   },
   {
-    title: "Английский язык",
-    description: "Past Simple",
-    date: "Фев, 09"
+    title: "История",
+    description: "НЭП",
+    date: "Фев, 15"
   },
   {
-    title: "Английский язык",
-    description: "Past Simple",
-    date: "Фев, 09"
+    title: "Физика",
+    description: "Взаимодействие атомов",
+    date: "Фев, 17"
   }
 ];
 

@@ -7,22 +7,22 @@ import { IHomeWorkItemProps } from "../../../../../interface/IHomeWorkItemProps"
 const homeworkList: IHomeWorkItemProps[] = [
   {
     title: "Физика",
-    description: "Страница 15 – Упражнение 2,3",
+    description: "Стр. 15 – Упр. 2,3",
     done: true
   },
   {
     title: "Биология",
-    description: "Страница 7 – Упражнение 1",
+    description: "Стр. 7 – Упр. 1-5",
     done: true
   },
   {
     title: "Математика",
-    description: "Страница 7 – Упражнение 1,2,3,4",
+    description: "Стр. 25 – Упр. 1",
     done: true
   },
   {
     title: "Литература",
-    description: "Книга – Алые паруса",
+    description: "Прочитать \"Алые паруса\"",
     done: true
   }
 ];

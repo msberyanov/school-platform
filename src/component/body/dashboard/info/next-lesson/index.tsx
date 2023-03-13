@@ -6,9 +6,9 @@ import { INextLessonItemProps } from "../../../../../interface/INextLessonItemPr
 
 const nextLessonItems: INextLessonItemProps[] = [
   {
-    title: "Английский язык",
+    title: "История",
     room: "309",
-    time: "09:00 - 10:30"
+    time: "10:50 - 11:35"
   }
 ];
 

@@ -6,12 +6,16 @@
   @apply flex items-center w-[calc(20%)] p-[5px];
 }
 
-.test-item-zone-1 .avatar {
+.test-item-zone-1 > .avatar {
   @apply flex w-1/2 justify-center items-center m-[15px] mt-0;
   aspect-ratio: 1 / 1;
   border-radius: 100px;
   background: #e0a69b;
   color: #fce6e2;
+  min-width: 30px;
+  min-height: 30px;
+  max-width: 35px;
+  max-height: 35px;
   @apply text-xl font-bold;
 }
 
@@ -31,4 +35,5 @@
 .test-item-zone-3 {
   @apply flex w-[calc(20%)] items-center mt-[-20px] text-lg font-medium;
   color: #b4715b;
+  margin-right: 30px;
 }

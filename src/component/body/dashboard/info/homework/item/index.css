@@ -12,6 +12,10 @@
   border-radius: 100px;
   background: #e0a69b;
   color: #fce6e2;
+  min-width: 30px;
+  min-height: 30px;
+  max-width: 35px;
+  max-height: 35px;
   @apply text-xl font-bold;
 }
 

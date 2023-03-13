@@ -1,12 +1,12 @@
-.next-lesson-item-zone {
+.schedule-item-zone {
   @apply w-full flex content-center;
 }
 
-.next-lesson-item-zone-1 {
-  @apply flex items-center w-[calc(20%)] p-[5px];
+.schedule-item-zone-1 {
+  @apply flex items-center w-[calc(25%)] p-[5px];
 }
 
-.next-lesson-item-zone-1 > .avatar {
+.schedule-item-zone-1 > .avatar {
   @apply flex w-1/2 justify-center items-center m-[15px] mt-0;
   aspect-ratio: 1 / 1;
   border-radius: 100px;
@@ -19,15 +19,15 @@
   @apply text-xl font-bold;
 }
 
-.next-lesson-item-zone-2 {
-  @apply flex w-[calc(80%)] flex-col;
+.schedule-item-zone-2 {
+  @apply flex w-[calc(75%)] flex-col;
 }
 
-.next-lesson-item-zone-2 > .title {
+.schedule-item-zone-2 > .title {
   @apply font-medium text-lg;
 }
 
-.next-lesson-item-zone-2 > .description {
+.schedule-item-zone-2 > .description {
   @apply font-medium;
   color: #be8b81;
 }
